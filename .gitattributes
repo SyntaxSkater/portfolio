@@ -1,0 +1,12 @@
+# Normalize text files to use LF
+* text=auto
+
+# Keep binary files untouched
+*.png binary
+*.jpg binary
+*.gif binary
+*.pdf binary
+
+# Specific overrides for file types (if needed)
+*.bat text eol=crlf
+*.sh text eol=lf
