@@ -1,16 +1,14 @@
-- A description of the project.
-- Installation steps.
-- How to run the project locally.
-- Features or functionality.
-- Screenshots or gifs of the project in action.
+# Christian Hatton's Portfolio
+This repository contains the complete source code for Christian Hatton's portfolio website.
 
-For each project and the portfolio
+## Features
+- Responsive design with modern aesthetics
+- Admin dashboard with analytics
+- SEO-optimized content
+- Integrated blog and artwork sections
 
-
-
-
-
-
-
-## add ability to download resume (different types)
-    all, programming, warehouse, construction, property management, food service
+## Setup Instructions
+1. Clone the repository.
+2. Install required dependencies: `npm install` or `pip install -r requirements.txt`.
+3. Run the development server: `npm start` or `python app.py`.
+4. Access the website at `http://localhost:3000`.

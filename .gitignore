@@ -1,0 +1,64 @@
+# Ignore .env file containing sensitive credentials
+.env
+
+# Ignore compiled Python files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore logs
+*.log
+logs/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore virtual environments
+venv/
+env/
+.venv/
+
+# Ignore IDE configuration files
+.vscode/
+.idea/
+
+# Ignore node_modules
+node_modules/
+
+# Ignore build output
+build/
+dist/
+*.egg-info/
+
+# Ignore temporary files
+*.swp
+*.tmp
+*.bak
+*.old
+*.orig
+
+# Ignore static files that can be regenerated
+/static/assets/
+static/assets/
+static/uploads/
+
+# Ignore personal files
+resume.pdf
+resume.docx
+*.iml
+
+# Ignore analytics data exports
+analytics_report.txt
+*.csv
+
+# Ignore local SQLite databases
+*.sqlite3
+*.db
+
+# Ignore livereload temp files
+livereload/
+*.pid
+
+# Ignore cache files
+.cache/

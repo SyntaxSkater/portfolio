@@ -1,0 +1,9 @@
+Flask>=2.3.0
+Werkzeug>=2.3.0
+requests>=2.28.0
+python-dotenv>=1.0.0
+Flask-Cors>=3.0.10
+gunicorn>=20.1.0
+apscheduler>=3.10.1
+flask-restful>=0.3.9
+livereload>=2.6.3

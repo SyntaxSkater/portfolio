@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Christian Hatton's Programming Portfolio - showcasing projects, contributions, and more!">
+    <meta name="keywords" content="Christian Hatton, portfolio, programming, projects, open source, Leetcode, blog">
+    <meta name="author" content="Christian Hatton">
+    <title>Christian Hatton's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <h1>Christian Hatton's Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#bio">Bio</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contributions">Open Source</a></li>
+                <li><a href="#leetcode">Leetcode</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#artwork">Artwork</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li id="admin-links" style="display: none;">
+                    <a href="#analytics">Analytics</a>
+                    <a href="#upload">Upload</a>
+                </li>
+                <li><button id="login-button">Login</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Bio Section -->
+    <section id="bio" class="content-section">
+        <h2>About Me</h2>
+        <p>Welcome to my portfolio! I'm Christian Hatton, a programmer specializing in projects, open source contributions, and technical problem-solving.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="content-section">
+        <h2>My Projects</h2>
+        <div class="card-grid" id="github-projects"></div>
+    </section>
+
+    <!-- Contributions Section -->
+    <section id="contributions" class="content-section">
+        <h2>Open Source Contributions</h2>
+        <div class="card-grid" id="open-source-contributions"></div>
+    </section>
+
+    <!-- Leetcode Section -->
+    <section id="leetcode" class="content-section">
+        <h2>Leetcode Progress</h2>
+        <div id="leetcode-progress"></div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="content-section">
+        <h2>Blog</h2>
+        <div class="card-grid" id="blog-posts"></div>
+    </section>
+
+    <!-- Artwork Section -->
+    <section id="artwork" class="content-section">
+        <h2>Artwork</h2>
+        <div class="card-grid" id="artwork-grid"></div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="content-section">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 Christian Hatton. All Rights Reserved.</p>
+        <a href="/privacy-policy.html">Privacy Policy</a>
+    </footer>
+
+    <!-- Resume Popup -->
+    <div class="popup" id="resume-popup">
+        <button id="close-resume">&times;</button>
+        <iframe src="resume.md"></iframe>
+        <a href="resume.pdf" download><button>Download Resume</button></a>
+    </div>
+
+    <script defer src="scripts.js"></script>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+</body>
+</html>
